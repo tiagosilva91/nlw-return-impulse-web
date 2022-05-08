@@ -1,0 +1,32 @@
+1) npm init -t
+2) npm i typescript @types/node ts-node-dev -D (configurar o tsconfig)
+3) npx tsc --init
+4) npx tsc
+5) npm i express - o express vai servir como controlador de rota da app
+6) npm i -D @types/express (importante para o express com o TYPE)
+7) Prisma ORM - Serve como um banco de dados local, porém os scripts serão feitos com código JS (sintaxe) que será convertido em SQL
+8) npm i prisma -D
+9) npm i @prisma/client
+10) npx prisma init
+11) npx prisma migrate dev(ambiente de dev)
+12) npx prisma studio
+13) O express nao entende o código JSON, usar o app.use(express.json())
+14) Criar o prisma.ts 
+15) Biblioteca para envio de e-mails npm i nodemailer
+16) npm i -D jest
+17) npx jest --init
+18) npm i ts-node -D
+
+#SOLID
+   1 Single responsibility Principle
+   2 Open/Close Principle
+   3 Liskov Substitution Principle
+   4 Interface Segregation Principle
+   5 Dependency Inversion Principle
+
+ ----------------------------------------------------------------
+ 1. Cada classe/função tem uma responsabilidade única;
+ 2. As classes da aplicação devem ser abertas para extensão mais fechadas para modificação;
+ 3. Nós devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando;
+ 4. Separar as interfaces sempre que conseguir para reduzir
+ 5. Inverter as dependencias para que as dependencias "falem" para a classe, quais dependencias ela irá precisar.
